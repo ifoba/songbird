@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #212529;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.logo {
+  font-family: 'Fredericka the Great', cursive;
+  color: #f5deb3;
+}
+
+.start-page {
+  height: 100vh;
+}
+
+.start-btn{
+  padding: 5px 10px;
+  color: #f5deb3;
+  border: 1.5px solid #f5deb3;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+  background: none;
+}
+.start-btn:hover {
+  background: #f5deb3;
+  color: #212529;
+}
+
+.start-logo {
+  font-family: 'Fredericka the Great', cursive;
+  color: #f5deb3;
+  font-size: 60px;
+}
+
+.start-text {
+  font-family: 'Fredericka the Great', cursive;
+  color: #f5deb3;
+  font-size: 20px;
+}

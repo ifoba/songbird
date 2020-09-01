@@ -1,0 +1,97 @@
+.player-container {
+    height: 40px;
+    width: 100%;
+    padding: 5px;
+    background:  #212529;
+    color: #f5deb3;
+    border-radius: 50px;
+}
+
+.play-btn{
+    width: 15px;
+    padding: 0;
+    margin: -5px 10px 0 10px;
+    border: none;
+    background: none;
+    color: #f5deb3;
+    outline: none !important;
+    min-width: 15px;
+}
+
+.player-timer{
+    font-size: 12px;
+    min-width: 70px;
+}
+.player-volume {
+    width: 20px;
+    transition: width .5s;
+    overflow: hidden;
+    margin-left: 5px;
+}
+
+.player-volume:hover{
+    width: 110px;
+}
+.player-volume-icon {
+    position: absolute;
+    margin-top: -5px;
+    width: 20px;
+    background: #212529 ;
+    z-index: 20;
+    padding: 0;
+    border: none;
+    color: #f5deb3;
+    outline: none !important;
+}
+.player-volume div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+    position: relative;
+    left: 25px;
+}
+
+.player-volume-range {
+    -webkit-appearance: none;
+    width: 60px;
+    background-color: #ffffff80;
+    outline: none; 
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.player-volume-range::-webkit-slider-runnable-track {
+    height: 8px;
+    -webkit-appearance: none;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.player-volume-range::-webkit-slider-thumb {
+    width: 14px;
+    -webkit-appearance: none;
+    height: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #f5deb3;
+    box-shadow: -65px 0 0 60px #f5deb380;
+    border: .1px solid #212529;
+}
+
+
+
+
+.progress-wrap {
+    height: 8px;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 100%;
+    background: #ffffff80;
+    border-radius: 4px;
+}
+
+.progress-inner{
+    background: #f5deb3;
+    height: 7px;
+    border-radius: 4px;
+}
